@@ -15,8 +15,7 @@ Hello, how are you doing today?
 Horizontal rule:
 ---
 'very nice'
-...
-#test code block
-print 'hello'
-print 'what's up'
-...
+
+····# code block
+····print 'hello'
+····print 'what's up!'
