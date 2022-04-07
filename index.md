@@ -4,8 +4,8 @@ Hello, how are you doing today?
 ### Heading3
 **Boldfont**
 *Italics*
-[Link](https://www.youtube.com/)
-![Image](https://pngimg.com/uploads/mario/mario_PNG125.png)
+[Youtube link](https://www.youtube.com/)
+![Super Mario!!](https://pngimg.com/uploads/mario/mario_PNG125.png)
 > Boom blockquote
 * List 
 * List
