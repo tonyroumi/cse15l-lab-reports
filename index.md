@@ -17,5 +17,5 @@ Horizontal rule:
 `very nice`
 
 ````# code block
-````print 'hello'
-````print 'what's up!'
+print 'hello'
+print 'what's up!'
