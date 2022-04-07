@@ -2,9 +2,17 @@ Hello, how are you doing today?
 # Heading1
 ## Heading2
 ### Heading3
+#### Heading 4
+##### Keep getting smaller
+---
+
 **Boldfont**
+
 *Italics*
-[Youtube link](https://www.youtube.com/)
+
+[Youtube.com](https://www.youtube.com/)
+
+---
 ![Super Mario!!](https://pngimg.com/uploads/mario/mario_PNG125.png)
 > Boom blockquote
 * List 
@@ -16,6 +24,13 @@ Horizontal rule:
 ---
 `very nice`
 
-````# code block
+````
 print 'hello'
 print 'what's up!'
+````
+
+
+````
+more code blocks 
+
+
