@@ -85,7 +85,6 @@ Enter file in which to save the key
 Enter passphrase (empty for no passphrase):
 ```
 
->NOTE: Input the correct file path to save the key.<br>
 >NOTE: DO NOT enter a passphrase (leave blank)
 
 After this you should see something that looks like this: <br>
