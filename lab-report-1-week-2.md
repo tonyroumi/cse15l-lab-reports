@@ -8,7 +8,7 @@ _This tutorial will guide you step by step on how to log into a course specific 
 ## Step 1 - _Installing Visual Studio Code_
 Go to the [Visual Studio Code](https://code.visualstudio.com/) website, and follow the instructions to install the source-code editor. After it is installed, open the program. You should see a window that looks something like this:
 
-![Image](https://github.com/tonyroumi/cse15l-lab-reports/blob/78948cf8fb42d6e277a3a271af76cd9419baaa91/Week%201/Screen%20Shot%202022-03-31%20at%204.14.55%20PM.png)
+![Image](https://github.com/tonyroumi/cse15l-lab-reports/blob/main/Week%201/Screen%20Shot%202022-03-31%20at%204.14.55%20PM.png?raw=true)
 
 ## Step 2 - _Remotely Connecting_
 If you are on Windows you must install a program called [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) to allow for your computer to be able to connect to other computers with this account. <br>
@@ -33,8 +33,7 @@ Say yes to these messages when connecting to a new server for the first time. Af
 
 >NOTE: The password is hidden, proceed and press enter.
 
-![Image](https://github.com/tonyroumi/cse15l-lab-reports/blob/78948cf8fb42d6e277a3a271af76cd9419baaa91/Week%201/Screen%20Shot%202022-03-31%20at%204.17.00%20PM.png)
-
+![Image](https://github.com/tonyroumi/cse15l-lab-reports/blob/main/Week%201/Screen%20Shot%202022-03-31%20at%204.17.00%20PM.png?raw=true)
 You are now connected to the remote server in the CSE basement and any commands you run will run on that computer. 
 
 ## Step 3 - _Trying Some Commands_
@@ -51,7 +50,7 @@ Try running some commands that you have learned in class. Here is a list of some
 - man: display command manual 
 ```
 
-![Image](https://github.com/tonyroumi/cse15l-lab-reports/blob/23fe98c1783a3a063df0547a3dde38bccc4cc8d4/Week%201/Screen%20Shot%202022-04-10%20at%207.39.01%20PM.png)
+![Image](https://github.com/tonyroumi/cse15l-lab-reports/blob/23fe98c1783a3a063df0547a3dde38bccc4cc8d4/Week%201/Screen%20Shot%202022-04-10%20at%207.39.01%20PM.png?raw=true)
 
 ## Step 4 - _Moving Files with scp_
 Another way to copy a file from your computer onto a remote server is with the command `scp`. <br>
@@ -63,7 +62,7 @@ Then from the terminal in the same directory as the newly made file, input this 
 `scp FILE.java cs15lsp22XX@ieng6.ucsd.edu:~/`<br>
 You will be prompted for a password, input your password and press enter.
 
-![Image](https://github.com/tonyroumi/cse15l-lab-reports/blob/23fe98c1783a3a063df0547a3dde38bccc4cc8d4/Week%201/Screen%20Shot%202022-03-31%20at%204.45.53%20PM.png)
+![Image](https://github.com/tonyroumi/cse15l-lab-reports/blob/23fe98c1783a3a063df0547a3dde38bccc4cc8d4/Week%201/Screen%20Shot%202022-03-31%20at%204.45.53%20PM.png?raw=true)
 
 You have successfully copied the file onto the remote server. <br>
 Now, log into `ieng6` and check the list of files. You should see the newly created file. Run the code from the remote machine, it should execute with no problems. 
@@ -88,7 +87,7 @@ Enter passphrase (empty for no passphrase):
 >NOTE: DO NOT enter a passphrase (leave blank)
 
 After this you should see something that looks like this: <br>
-![Image](https://github.com/tonyroumi/cse15l-lab-reports/blob/b54743f80c8224f76e8565337d325a6ea7134379/Week%201/Screen%20Shot%202022-03-31%20at%204.51.25%20PM.png)
+![Image](https://github.com/tonyroumi/cse15l-lab-reports/blob/main/Week%201/Screen%20Shot%202022-03-31%20at%204.51.25%20PM.png?raw=true)
 
 >If you are on windows, follow the extra steps [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation).
 
@@ -106,7 +105,7 @@ cs15lsp22XX@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 
 Now you should be able to login or use scp to the server without entering your password. 
 
-![Image](https://github.com/tonyroumi/cse15l-lab-reports/blob/b54743f80c8224f76e8565337d325a6ea7134379/Week%201/Screen%20Shot%202022-03-31%20at%205.40.06%20PM.png)
+![Image](https://github.com/tonyroumi/cse15l-lab-reports/blob/b54743f80c8224f76e8565337d325a6ea7134379/Week%201/Screen%20Shot%202022-03-31%20at%205.40.06%20PM.png?raw=true)
 
 ## Step 6 - Optimizing Remote Running
 There is an easier process to calling commands on the remote server.
@@ -121,7 +120,7 @@ Another way of optimizing commands is to run multiple commands on the same line.
 * `cp hello.java; javac hello.java; java hello`
 
 
-![Image](https://github.com/tonyroumi/cse15l-lab-reports/blob/b54743f80c8224f76e8565337d325a6ea7134379/Week%201/Screen%20Shot%202022-03-31%20at%205.51.30%20PM.png)
+![Image](https://github.com/tonyroumi/cse15l-lab-reports/blob/b54743f80c8224f76e8565337d325a6ea7134379/Week%201/Screen%20Shot%202022-03-31%20at%205.51.30%20PM.png?raw=true)
 
 That's it! You have learned how to connect to a remote server, the basic unix commands, how to move files using `scp` command, you set up an SSH key, and learned optimal remote running tricks. 
 
