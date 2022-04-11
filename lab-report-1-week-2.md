@@ -34,6 +34,7 @@ Say yes to these messages when connecting to a new server for the first time. Af
 >NOTE: The password is hidden, proceed and press enter.
 
 ![Image](https://github.com/tonyroumi/cse15l-lab-reports/blob/main/Week%201/Screen%20Shot%202022-03-31%20at%204.17.00%20PM.png?raw=true)
+
 You are now connected to the remote server in the CSE basement and any commands you run will run on that computer. 
 
 ## Step 3 - _Trying Some Commands_
