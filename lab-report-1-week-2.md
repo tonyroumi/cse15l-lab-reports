@@ -11,7 +11,7 @@ Go to the [Visual Studio Code](https://code.visualstudio.com/) website, and foll
 ![Image](https://github.com/tonyroumi/cse15l-lab-reports/blob/78948cf8fb42d6e277a3a271af76cd9419baaa91/Week%201/Screen%20Shot%202022-03-31%20at%204.14.55%20PM.png)
 
 ## Step 2 - _Remotely Connecting_
-If you are on Windows, you must install a program called [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse), to allow for your computer to be able to connect to other computers with this account. <br>
+If you are on Windows you must install a program called [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) to allow for your computer to be able to connect to other computers with this account. <br>
 If you are not on windows or you have finished, then look up your course related specific account [here](https://sdacs.ucsd.edu/~icc/index.php).
 
 Now, in Visual Studio Code we will connect to the remote server. Open up a terminal and input this command. <br>
@@ -53,13 +53,13 @@ Try running some commands that you have learned in class. Here is a list of some
 
 ![Image](https://github.com/tonyroumi/cse15l-lab-reports/blob/23fe98c1783a3a063df0547a3dde38bccc4cc8d4/Week%201/Screen%20Shot%202022-04-10%20at%207.39.01%20PM.png)
 
-## Step 4 - _Moving Files with `scp`_
+## Step 4 - _Moving Files with scp_
 Another way to copy a file from your computer onto a remote server is with the command `scp`. <br>
 Create any file on your computer with the extension .java. Make sure the file will compile. <br>
 
->NOTE: If you do not have java, skip this step. 
+>NOTE: If you do not have java, don't worry about this step. You should still make the file.
 
-Then from the terminal in the same directory as the newly made file, input this command:
+Then from the terminal in the same directory as the newly made file, input this command: <br>
 `scp FILE.java cs15lsp22XX@ieng6.ucsd.edu:~/`<br>
 You will be prompted for a password, input your password and press enter.
 
@@ -73,13 +73,13 @@ Anytime we run scp or ssh we are promted for our password. This can be frustrati
 
 This command creates a public key and a private key. You transfer a copy of the public key to a specific location on the server, and the private key to a specific location on the client. 
 
->__On the client (your computer) run the command__
+__On the client (your computer) run the command__
 `$ ssh-keygen` <br>
 You should see:
 ```
 Generating public/private rsa key pair.
 
-`Enter file in which to save the key
+Enter file in which to save the key
 (/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa
 
 Enter passphrase (empty for no passphrase):
