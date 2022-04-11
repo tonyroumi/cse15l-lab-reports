@@ -82,10 +82,10 @@ Generating public/private rsa key pair.
 `Enter file in which to save the key
 (/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa
 
-Enter passphrase (empty for no passphrase):`
+Enter passphrase (empty for no passphrase):
 ```
 NOTE: Input the correct file path to save the key.<br>
-NOTE: DO NOT enter a passphrase (press enter)
+NOTE: DO NOT enter a passphrase (leave blank)
 
 >After this you should see something that looks like this: <br>
 ![Image](https://github.com/tonyroumi/cse15l-lab-reports/blob/b54743f80c8224f76e8565337d325a6ea7134379/Week%201/Screen%20Shot%202022-03-31%20at%204.51.25%20PM.png)
