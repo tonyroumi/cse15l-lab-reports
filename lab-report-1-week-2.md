@@ -99,10 +99,10 @@ Next, you will need to copy the __public__ key to the `.ssh` directory on the se
 Log onto the server with `ssh cs15lsp22zz@ieng6.ucsd.edu` and make the directory using `mkdir .ssh`.
 
 After you have done this, logout. Now use what you have learned with scp to copy the public key over to the newly created directory. 
-```
-$ scp /Users/<user-name>/.ssh/id_rsa.pub
-cs15lsp22XX@ieng6.ucsd.edu:~/.ssh/authorized_keys
-```
+
+`$ scp /Users/<user-name>/.ssh/id_rsa.pub
+cs15lsp22XX@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+
 >NOTE: Use your own username.
 
 Now you should be able to login or use scp to the server without entering your password. 
