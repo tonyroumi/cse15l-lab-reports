@@ -17,7 +17,8 @@ If you are not on windows or you have finished, then look up your course related
 Now, in Visual Studio Code we will connect to the remote server. Open up a terminal and input this command. <br>
 
 `$ ssh cs15lsp22XX@ieng6.ucsd.edu` <br>
-NOTE: replace the 'XX' with your course specific account. <br>
+>NOTE: replace the 'XX' with your course specific account. <br>
+
 You should get a message like this since it is your first time remotely connecting: <br>
 ```
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established. 
