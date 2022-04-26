@@ -48,5 +48,5 @@ This __symptom__ caused a ```StringIndexOutOfBoundsException```:
 This is the code change difference that resolved the __symptom__:
 ![image](https://github.com/tonyroumi/cse15l-lab-reports/blob/main/Lab%20Report%202%20screenshots/file4%20fix.png?raw=true)
 
->This error is a __symptom__ because this faulty behavior is explicitly shown. The failure-inducing input of string text and a singular "[" very clearly caused an ```StringIndexOutOfBoundsException``` and the program did not compile, therefore we identify it as a __symptom__. 
+>This error is a __symptom__ because this faulty behavior is explicitly shown. This failure-inducing input of string text and a singular "[" very clearly caused an ```StringIndexOutOfBoundsException``` and the program did not compile, therefore we identify it as a __symptom__. 
 
