@@ -1,4 +1,4 @@
-# **Lab Report 1**
+# **Lab Report 2**
 Anthony Roumi <br>
 April 24, 2022 
 
@@ -7,12 +7,12 @@ April 24, 2022
 _These past two weeks we have learned a variety of debugging and testing procedures. We have learned about new lines of development in github, as well as better ways of approaching and testing code._
 
 ## _Markdown Parsing_
-_Last week we learned about markdown parsing. We were given a program that takes a markdown file as a command line argument and then prints out all the URLs of the links (but not of images) in that file and asked to debug the code_
+_Last week we learned about markdown parsing. We were given a program that takes a markdown file as a command line argument and then prints out all the URLs of the links (but not of images) in that file and asked to debug the code._
 
-_The parsing comes from obtaining a data structure out of a string_
+_The parsing comes from obtaining a data structure out of a string._
 
 ## _Testing and Code Changes_
-_We ran different inputs to test the code and insure that there are no symptoms or bugs_
+_We ran different inputs to test the code and insure that there are no symptoms or bugs._
 
 ---
 ## __Bug #1__
@@ -28,9 +28,9 @@ This is the code change difference that resolved the __bug__:
 Write 2-3 sentences here
 
 ## __Bug #2__
-The second __symptom__ that I encountered was when there was an image and duplicates in the markdown file: ['test-file3'](https://github.com/tonyroumi/markdown-parser/blob/main/test-file3.md)
+The second __symptom__ that I encountered was when there was an image in the markdown file: ['test-file3'](https://github.com/tonyroumi/markdown-parser/blob/main/test-file3.md)
 
-This __symptom__ would create a list including the image links and duplicates, which is not apart of the program:
+This __symptom__ would create a list including the image link, which is not apart of the program:
 
 ![image](https://github.com/tonyroumi/cse15l-lab-reports/blob/main/Lab%20Report%202%20screenshots/Screen%20Shot%202022-04-25%20at%205.50.12%20PM.png?raw=true)
 
