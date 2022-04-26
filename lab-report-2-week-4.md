@@ -28,7 +28,7 @@ This is the code change difference that resolved the __symptom__:
 >We call this error a __symptom__ because this faulty behavior is explicitly shown. The difference between a __bug__ and a __symptom__ is the way the faulty behavior is shown. This input very clearly caused an infinite loop and the program did not compile, therefore we identify it as a __symptom__. 
 
 ### __Bug #2__
-The next __bug__ that I encountered was when there was an image in the markdown file: ['test-file3'](https://github.com/tonyroumi/markdown-parser/blob/main/test-file3.md)
+The first __bug__ that I encountered was when there was an image in the markdown file: ['test-file3'](https://github.com/tonyroumi/markdown-parser/blob/main/test-file3.md)
 
 This __bug__ would create a list including the image link, which is not apart of the program:
 
