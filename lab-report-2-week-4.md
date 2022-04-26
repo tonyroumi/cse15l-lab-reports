@@ -25,7 +25,7 @@ This __symptom__ caused an infinite loop which resulted in an ```OutOFMemoryErro
 This is the code change difference that resolved the __symptom__:
 ![image](https://github.com/tonyroumi/cse15l-lab-reports/blob/main/Lab%20Report%202%20screenshots/changes%20to%20code%20for%20test%202.png?raw=true)
 
-We call this error a __symptom__ because this faulty behavior is explicitly shown. The difference between a __bug__ and a __symptom__ is the way the faulty behavior is shown. This input very clearly caused an infinite loop and the program did not compile, therefore we identify it as a __symptom__. 
+>We call this error a __symptom__ because this faulty behavior is explicitly shown. The difference between a __bug__ and a __symptom__ is the way the faulty behavior is shown. This input very clearly caused an infinite loop and the program did not compile, therefore we identify it as a __symptom__. 
 
 ### __Bug #2__
 The next __bug__ that I encountered was when there was an image in the markdown file: ['test-file3'](https://github.com/tonyroumi/markdown-parser/blob/main/test-file3.md)
@@ -37,7 +37,7 @@ This __bug__ would create a list including the image link, which is not apart of
 This is the code change difference that resolved the __bug__:
 ![image](https://github.com/tonyroumi/cse15l-lab-reports/blob/main/Lab%20Report%202%20screenshots/test-file%203%20diff.png?raw=true)
 
-We call this error a __bug__ because this faulty behavior is implicit and is a flaw within the program. This input created a list that includes the link of an image, which is not part of the program's function, however there was no explicit error message, therefore we identify it as a __bug__. 
+>We call this error a __bug__ because this faulty behavior is implicit and is a flaw within the program. This input created a list that includes the link of an image, which is not part of the program's function, however there was no explicit error message, therefore we identify it as a __bug__. 
 
 ### __Symptom #3__
 The next __symptom__ that I encountered was when a plain string and singular open bracket was in the markdown file: ['test-file4'](https://github.com/tonyroumi/markdown-parser/blob/main/test-file4.md)
@@ -48,5 +48,5 @@ This __symptom__ caused a ```StringIndexOutOfBoundsException```:
 This is the code change difference that resolved the __symptom__:
 ![image](https://github.com/tonyroumi/cse15l-lab-reports/blob/main/Lab%20Report%202%20screenshots/file4%20fix.png?raw=true)
 
-This error is a __symptom__ because this faulty behavior is explicitly shown. This input very clearly caused an ```StringIndexOutOfBoundsException``` and the program did not compile, therefore we identify it as a __symptom__. 
+>This error is a __symptom__ because this faulty behavior is explicitly shown. This input very clearly caused an ```StringIndexOutOfBoundsException``` and the program did not compile, therefore we identify it as a __symptom__. 
 
