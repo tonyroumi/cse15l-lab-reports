@@ -37,7 +37,7 @@ This __bug__ would create a list including the image link, which is not apart of
 This is the code change difference that resolved the __bug__:
 ![image](https://github.com/tonyroumi/cse15l-lab-reports/blob/main/Lab%20Report%202%20screenshots/test-file%203%20diff.png?raw=true)
 
->We call this error a __bug__ because this faulty behavior is implicit and is a flaw within the program. This failure-inducing input of a hyperlink image created a list that includes the link of an image, which is not part of the program's function, however there was no explicit error message, therefore we identify it as a __bug__. 
+>We call this error a __bug__ because this faulty behavior is implicit and is a flaw within the program. This failure-inducing input of a hyperlink image created a list that includes the link of an image, which is not part of the program's function, and there was no explicit error message, therefore we identify it as a __bug__. 
 
 ### __Symptom #3__
 The next __symptom__ that I encountered was when a plain string and singular open bracket was in the markdown file: ['test-file4'](https://github.com/tonyroumi/markdown-parser/blob/main/test-file4.md)
