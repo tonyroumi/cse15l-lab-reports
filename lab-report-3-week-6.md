@@ -62,7 +62,7 @@ scp -r markdown-parser ieng6:~/markdown-parser
 
 This is what it looks like when the directory is recursively copied onto the server
 
-![image](https://github.com/tonyroumi/cse15l-lab-reports/blob/main/Lab%20Report%203/copymarkdownparser.png?raw=true)
+![image](https://github.com/tonyroumi/cse15l-lab-reports/blob/main/Lab%20Report%203/copyover.png?raw=true)
 
 Now we should be able to run the Junit tests on the server.
 
@@ -70,9 +70,11 @@ Now we should be able to run the Junit tests on the server.
 
 We can combine both of these commands for a more effective and faster command line using:
 ```
-scp -r . ieng6:~/lab-report-3 ; ssh ieng6 "cd lab-report-3 ; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java ; /software/CSE/oracle-java-17/jdk-17.0.1/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3 jar org.junit.runner.JUnitCore MarkdownParseTest"
+scp -r markdown-parser ieng6:~/markdown-parser ; ssh ieng6 "cd markdown-parser;/software/CSE/oracle-java-17/jdk-17.0.1/bin/javac -cp .:lib/* *.java;/software/CSE/oracle-java-17/jdk-17.0.1/bin/java -cp .:lib/* org.junit.runner.JUnitCore MarkdownParseTest"
 ```
 >this is all one line
+
+![image](https://github.com/tonyroumi/cse15l-lab-reports/blob/main/Lab%20Report%203/oneline.png?raw=true)
 
 
 
