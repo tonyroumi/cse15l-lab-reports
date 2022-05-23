@@ -12,6 +12,8 @@ _In this lab we will test three different types of tests against two different i
 
 - Week 7 implementation: [MarkdownParse](https://github.com/ujik500/markdown-parser.git)
 
+>I will use [Commonmark](https://spec.commonmark.org/dingus/) to find the correct expected output of __MarkdownParse__. 
+
 ___
 ### __Test #1__
 ```
@@ -21,7 +23,6 @@ ___
 [`code]`](ucsd.edu)
 ```
 
->I will use [Commonmark](https://spec.commonmark.org/dingus/) to find the correct expected output of __MarkdownParse__. 
 
 The correct output for _Test #1_ should be: 
 ```
